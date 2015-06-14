@@ -1,6 +1,7 @@
 #! /usr/bin/python
 '''
 Relation Probability algorithm
+author: Yunkun Niu
 '''
 import conf
 import data_set
@@ -28,9 +29,9 @@ print len( countDict ), ' unique keys'
 # DETECT PHASE
 i = 0
 for line in detectSet:
-	if i == 30:
-		print '---------------above should be 0 all--------------'
-		print '---------------below should be positive all--------------'
+#	if i == 30:
+#		print '---------------above should be 0 all--------------'
+#		print '---------------below should be positive all--------------'
 	key = ''
 	for featureIdx in conf.featureSet:
 		key += line[featureIdx]

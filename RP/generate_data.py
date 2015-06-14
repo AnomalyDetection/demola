@@ -1,4 +1,7 @@
 #! /usr/bin/python
+'''
+Randomly generate test data
+'''
 import random
 
 file_good = '../data/good_log.txt'

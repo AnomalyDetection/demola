@@ -1,7 +1,7 @@
 import conf
 #! /usr/bin/python
 '''
-handle data_set
+read data_set
 '''
 def getDataSet( filename ):
 	dataSet = []
