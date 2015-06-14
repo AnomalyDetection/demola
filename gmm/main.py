@@ -5,8 +5,8 @@ import numpy as np
 from sklearn import mixture
 
 # import data
-valid = np.loadtxt('../data/valid.txt')       # valid.txt saves the valid requests
-anomaly = np.loadtxt('../data/anomaly.txt')   # anomaly.txt saves the anomaly requests
+valid = np.loadtxt('../data/good_5000.txt')       # valid.txt saves the valid requests
+anomaly = np.loadtxt('../data/ugly_5000.txt')   # anomaly.txt saves the anomaly requests
 check = np.loadtxt('../data/check.txt')       # check.txt saves the requests that needed to be detected
 
 # exclude the first attribute
